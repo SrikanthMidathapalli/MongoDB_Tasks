@@ -3,7 +3,7 @@ You are tasked with designing a MongoDB schema for an e-commerce application. Th
 
 ## Requirements:
 ### Design MongoDB schemas for the following entities:
-`Products:` Each product should have attributes such as name, description, price, category, and inventory.\n
+`Products:` Each product should have attributes such as name, description, price, category, and inventory.
 `Customers:` Each customer should have attributes such as name, email, address, and order history.
 `Orders:` Each order should have attributes such as order ID, customer ID, product ID, quantity, and total price.
 `Reviews:` Each review should have attributes such as product ID, customer ID, rating, and comments.
