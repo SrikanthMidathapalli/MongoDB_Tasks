@@ -1,0 +1,41 @@
+1. What are the main features introduced in Java 8?h-1,S-1/2,J-1,A-1
+Answer: Java 8 introduced lambda expressions, the Stream API, default methods, and the java.util.function package, among other features.
+
+2. What is a lambda expression, and how is it used in Java 8?h-1,S-1,J-1,A-1
+Answer: A lambda expression is a concise way to represent an anonymous function. It allows you to pass behavior to functions and methods. 
+Example: (a, b) -> a + b
+
+3. What is the Stream API in Java 8, and how does it differ from collections?h-1,S-1,J-1,A-1
+Answer: The Stream API allows for functional-style operations on collections of data. Unlike collections, 
+streams do not store data; they represent a sequence of elements and support operations like filtering, mapping, and reducing.
+
+4. Explain the concept of functional interfaces in Java 8.h-1,S-1,J-1,A-1
+Answer: Functional interfaces have a single abstract method and can be used with lambda expressions. Examples include Runnable, Consumer, and Predicate.
+
+5. How do you use method references in Java 8?h-1/2,S-1/2,A-1
+Answer: Method references provide a shorthand notation for invoking methods using lambda expressions. There are three types: 
+static method references, instance method references, and constructor references.
+
+6. What are default methods in Java 8, and why were they introduced?h-1,S-0,j-1,A-0
+Answer: Default methods allow interfaces to have method implementations. They were introduced to provide backward compatibility for existing 
+code when new methods are added to interfaces.
+
+7. What is the purpose of the map operation in the Stream API?h-1,S-0,J-1,A-1
+Answer: The map operation transforms each element of a stream into another object using the provided function.
+
+8. How do you filter elements in a stream using the filter operation?h-1,S-1/2,j-1,A-1
+- Answer: The filter operation allows you to specify a predicate to retain only the elements that satisfy the 
+given condition.
+
+9. What is the purpose of the distinct operation in the Stream API?h-1,S-1,j=0,A-1
+- Answer: The distinct operation removes duplicate elements from a stream, ensuring that each element is unique.
+
+10.Explain the concept of parallel streams in Java 8.h-1,S-0,j-1/2,A-1.2
+- Answer: Parallel streams allow for concurrent processing of data by splitting the data into multiple threads, 
+potentially improving performance on multi-core processors.
+
+11. What are the benefits of using the new Date and Time API introduced in Java 8?h-1,S-1
+- Answer: The new Date and Time API (java.time) provides improved date and time handling, immutability,
+ and better support for time zones.
+
+
